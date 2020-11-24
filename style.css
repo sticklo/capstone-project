@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 20px 150px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+nav {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+    ul {
+        display: flex;
+    }
+    li {
+        margin: 0 10px;
+    }
+
+        svg {
+            width: 20px;
+            height: auto;
+        }
+
+
+        svg {
+            width: 60px;
+            height:40px;
+        }
+
+.row {
+  grid-gap: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+nav {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:last-child svg {
+  width: 24px;
+  height: auto;
+  margin: 50% 0;
+}
+
+nav a span {
+  position: relative;
+  font-weight: 600;
+  font-size: 10px;
+  right: 15px;
+  top: -18.5px;
+}
+
+.brown-brim {
+  background: url("https://i.ibb.co/ZYW3VTp/brown-brim.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.brown-brim:hover {
+  opacity: 0.9;
+}
+
+.blue-beanie {
+  background: url("https://i.ibb.co/ypkgK0X/blue-beanie.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.blue-beanie:hover {
+  opacity: 0.9;
+}
+
+.brown-cowboy {
+  background: url("https://i.ibb.co/QdJwgmp/brown-cowboy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.brown-cowboy:hover {
+  opacity: 0.9;
+}
+
+.grey-brim {
+  background: url("https://i.ibb.co/RjBLWxB/grey-brim.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.grey-brim:hover {
+  opacity: 0.9;
+}
+
+.adidas-nmd {
+  background: url("https://i.ibb.co/0s3pdnc/adidas-nmd.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.adidas-nmd:hover {
+  opacity: 0.9;
+}
+
+.adidas-yeezy {
+  background: url("https://i.ibb.co/dJbG1cT/yeezy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.adidas-yeezy:hover {
+  opacity: 0.9;
+}
+
+.black-converse {
+  background: url("https://i.ibb.co/bPmVXyP/black-converse.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.black-converse:hover {
+  opacity: 0.9;
+}
+
+.nike-airforce {
+  background: url("https://i.ibb.co/1RcFPk0/white-nike-high-tops.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.nike-airforce:hover {
+  opacity: 0.9;
+}
+
+.black-shearling {
+  background: url("https://i.ibb.co/XzcwL5s/black-shearling.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.black-shearling:hover {
+  opacity: 0.9;
+}
+
+.blue-jacket {
+  background: url("https://i.ibb.co/mJS6vz0/blue-jean-jacket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.blue-jacket:hover {
+  opacity: 0.9;
+}
+
+.grey-jacket {
+  background: url("https://i.ibb.co/N71k1ML/grey-jean-jacket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.grey-jacket:hover {
+  opacity: 0.9;
+}
+
+.brown-shearling {
+  background: url("https://i.ibb.co/s96FpdP/brown-shearling.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.brown-shearling:hover {
+  opacity: 0.9;
+}
+
+.blue-tanktop {
+  background: url("https://i.ibb.co/7CQVJNm/blue-tank.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.blue-tanktop:hover {
+  opacity: 0.9;
+}
+
+.floral-blouse {
+  background: url("https://i.ibb.co/4W2DGKm/floral-blouse.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.floral-blouse:hover {
+  opacity: 0.9;
+}
+
+.floral-dress {
+  background: url("https://i.ibb.co/KV18Ysr/floral-skirt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.floral-dress:hover {
+  opacity: 0.9;
+}
+
+.red-dress {
+  background: url("https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.red-dress:hover {
+  opacity: 0.9;
+}
+
+.camo-vest {
+  background: url("https://i.ibb.co/xJS0T3Y/camo-vest.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.camo-vest:hover {
+  opacity: 0.9;
+}
+
+.floral-shirt {
+  background: url("https://i.ibb.co/qMQ75QZ/floral-shirt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.floral-shirt:hover {
+  opacity: 0.9;
+}
+
+.longsleeve {
+  background: url("https://i.ibb.co/55z32tw/long-sleeve.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.longsleeve:hover {
+  opacity: 0.9;
+}
+
+.pink-shirt {
+  background: url("https://i.ibb.co/RvwnBL8/pink-shirt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+
+.pink-shirt:hover {
+  opacity: 0.9;
+}
+
+main > div {
+  margin-bottom: 50px;
+}
+
+main div > div {
+  height: 300px;
+}
+
+main div > div p {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  padding: 10px;
+  margin: 0 10%;
+  margin-top: 220px;
+}
+
+main div > div p:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+main div > div ul {
+  justify-content: space-between;
+  position: absolute;
+  margin: 5px auto;
+  margin-top: 300px;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  width: 21%;
+}
+
+main div > div:hover > p {
+  display: block;
+}
+
+@media screen and (min-width: 1450px) {
+  main div > div {
+    height: 500px;
+  }
+  main div > div p {
+    margin-top: 380px;
+    padding: 20px;
+  }
+  main div > div ul {
+    margin-top: 500px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+body {
+  padding: 20px 50px;
+}
+  main div > div ul {
+    width: 19.8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px 40px;
+  }
+  .row {
+    gap: 30px 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  h2 {
+    margin-top: 40px;
+  }
+  main > div {
+    margin-bottom: 0;
+  }
+  main div > div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main div > div ul {
+    width: 43.8%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  body {
+    padding: 20px 15px;
+  }
+  .row {
+    grid-template-columns: 1fr;
+  }
+  main div > div ul {
+    width: 86.8%;
+  }
+}
